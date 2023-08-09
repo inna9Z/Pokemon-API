@@ -4,10 +4,18 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./styles/style.css" />
-        <title>Test</title>
+        <title>Pokemon Api</title>
     </head>
     <body>
-        <div id="root"></div>
+        <div class="controls">
+            <div id="root"></div>
+            <input
+                type="text"
+                id="pokemonIdInput"
+                placeholder="Enter Pokemon ID"
+            />
+            <button id="loadPokemon">Load Pokemon</button>
+        </div>
         <script type="module" src="./src/init.js"></script>
     </body>
 </html>

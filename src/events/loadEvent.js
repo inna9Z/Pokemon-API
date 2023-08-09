@@ -1,7 +1,15 @@
-import loadHandler from '../handlers/loadHandler.js';
 
+import loadPokemon from '../handlers/loadPokemon.js';
+import dom from '../dom.js';
 const loadEvent = () => {
-    window.addEventListener('DOMContentLoaded', loadHandler);
+
+
+dom.btn.addEventListener('click', loadPokemon);
+dom.input.addEventListener('keyup', (e) => {
+    if (e.key === 'Enter') {
+        loadPokemon();
+    }
+});
 };
 
 export default loadEvent;
