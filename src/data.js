@@ -1,4 +1,4 @@
-// const data = {
-//     id: null,
-// };
-// export default data;
+const data = {
+    id: null,
+};
+export default data;
