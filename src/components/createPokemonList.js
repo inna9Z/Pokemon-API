@@ -1,4 +1,4 @@
-import createAbilityList from '../handlers/createAbilityList.js';
+import createAbilityList from './createAbilityList.js';
 
 const createPokemonList = (pokemonData) => {
     const container = document.createElement('div');

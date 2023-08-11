@@ -1,4 +1,5 @@
-import createAbilityList from "../handlers/createAbilityList.js";
+import createAbilityList from './createAbilityList.js';
+
 const updatePokemon = (pokemonData) => {
     document.getElementById('name').innerText = pokemonData.name;
 
